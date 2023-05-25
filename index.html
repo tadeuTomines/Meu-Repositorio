@@ -12,8 +12,11 @@
     
 
     <style>
+        
+
         body {
-            font-family: monospace;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: beige;
         }
 
         #main-title {
@@ -28,17 +31,61 @@
             text-align: center;
 
         }
+
+        .main-photo{
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+
+        }
+
+        .button {
+            background-color:#11a36a;
+            color: white;
+            border-radius: 3px;
+            text-decoration: none;
+            padding: 10px 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+
+        }
+        .button2{
+            background-color:#e22f2f;
+            color: white;
+            border-radius: 3px;
+            text-decoration: none;
+            padding: 10px 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+        .center-text{
+            text-align: center;
+        }
+        p{
+            font-size: large;
+            font-weight: 200;
+        }
+        #spotify-page{
+            color: rgb(0, 0, 0);
+        }
+
     </style>
 </head>
-    <h1 id="main-title">
+    <h1 class="center-text" id="main-title">
         Olá, Eu me chamo Tadeu Tomines Faria Filho!
     </h1>
     
 <body>
-    <img src="/Images/30 anosjpg" alt="Meu aniversário de 30 anos" width="400px" height="">
-    <a href="/Images/30 anosjpg">Minha Foto</a>
+    <img class="main-photo" src="/Images/30 anosjpg" alt="Meu aniversário de 30 anos" width="400px" height="">
+    <a class="button center-text" href="#">Minha Foto</a>
     <em>
-            <p>
+            <p class="center-text">
                 "Nasci no Rio de Janeiro em 1992, sou formado em matemática e produzo música eletrônica também como profissão"
             </p> 
         </em> 
@@ -60,11 +107,12 @@
             Sou uma pessoa persistente e focada. Se eu puser algo na cabeça, irei em frente até realizar meus objetivos.
         </li>
         <br>
-                 Eu também possuo minha pŕopria página no <strong>Spotify!</strong> 
-            <a target="_blank" href="https://open.spotify.com/artist/5R1yd5y1Aap6x2iFiXjPj1?si=pbnAbYioQ-qLtJ6oxz9kvw">Clique aqui para conhecer.</a>
-        
+                 
     </ul>
-
+    <p class="center-text" id="spotify-page">
+        Eu também possuo minha pŕopria página no <strong>Spotify!</strong> 
+        <a class="button2" target="_blank" href="https://open.spotify.com/artist/5R1yd5y1Aap6x2iFiXjPj1?si=pbnAbYioQ-qLtJ6oxz9kvw">Clique aqui para conhecer.</a>
+    </p>
 
   
    
